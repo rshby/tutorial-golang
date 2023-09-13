@@ -1,0 +1,8 @@
+materi map
+1. membuat variabel kosong dengan tipe map
+2. membuat variabel kosong map menggunakan make function()
+3. membuat variabel map langsung diisi dengan key-value
+4. mengisi value pada map
+   - menggunakan key
+5. mengubah value map berdasarkan key
+6. menghapus value map berdasarkan key

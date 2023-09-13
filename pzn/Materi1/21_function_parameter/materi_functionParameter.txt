@@ -1,0 +1,5 @@
+function parameter
+1. membuat function dengan input parameter
+2. memanggil function
+   - menggunakan parameter yang disimpan di variabel
+   - menggunakan parameter langsung ditulis di function

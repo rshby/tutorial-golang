@@ -1,0 +1,4 @@
+function multiple return
+1. cara membuat function dengan multiple return
+2. cara memanggil function dengan multiple return
+3. memanggil functoin tapi hanya memerlukan salah satu return

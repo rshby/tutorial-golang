@@ -1,0 +1,17 @@
+materi function as parameter
+
+1. create function dengan input parameter tipe datanya func
+   - func juga dapat digunakan sebagai tipe data pada sebuah input parameter function
+   - contoh:
+     func SayHello(inputNama string, inputFuncPrint func(string)string){
+      ...
+     }
+
+2. call function yang mempunyai input parameter tipe data func
+   - siapkan function yang akan dijadikan input parameter
+   - masukkan pada input parameter
+   - contoh
+     inputNama := "reo"
+     x := SayHello(inputNama, func(nama string) string{
+        fmt.Sprintf("halo %v", nama)
+     }(inputNama))

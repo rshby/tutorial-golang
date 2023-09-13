@@ -1,0 +1,8 @@
+materi switch
+1. switch case
+2. switch case -> case bisa dua kondisi
+3. switch case varibel in scope switch
+4. default
+5. switch tanpa statement
+6. switch case dengan short statement
+7. type case

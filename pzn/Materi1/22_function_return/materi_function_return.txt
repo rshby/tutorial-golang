@@ -1,0 +1,3 @@
+function return
+1. membuat function dengan return
+2. memanggil function dengan return

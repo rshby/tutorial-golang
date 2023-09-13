@@ -1,0 +1,4 @@
+materi rekursif function
+
+1. create function faktorial
+2. call function faltorial

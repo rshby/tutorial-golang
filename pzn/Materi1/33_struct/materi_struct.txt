@@ -1,0 +1,13 @@
+materi struct
+
+1. membuat struct
+
+2. membuat object dari struct
+   - membuat object kosong dulu setelah itu diisi valuenya sesuai property
+   - membuat object langsung mengisi peroperty (lebih enak)
+   - membuat object langsung mengisi input parameternya (sesuai urutan property)
+
+ 3. print object
+    - print salah satu property
+    - print semua isi property dengan for
+    - print semua object jika dimasukkan ke dalam slice

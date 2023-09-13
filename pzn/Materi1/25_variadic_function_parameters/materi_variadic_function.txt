@@ -1,0 +1,13 @@
+materi variadic function
+
+1. membuat function variadic parameter
+   - variadic function adalah function yang input parameternya dapat dimasukkan dengan jumlah yang tak hingga,
+   asalkan menggunakan tipe data yang sama
+   - contoh :
+     func SumAll(nilai...int) int{
+        ...
+     }
+     cara memanggilnya :
+     x := SumAll(1, 2, 3, 4, 5)
+
+2. call variadic function dari main

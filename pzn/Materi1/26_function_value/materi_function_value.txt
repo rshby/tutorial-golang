@@ -1,0 +1,18 @@
+materi function value
+1. create function
+2. membuat variabel yang isinya sebuah function
+   - di golang function juga dapat dijadikan value dari sebuah variabel
+   - contoh :
+     func GetAll(inputId int) *model.User {
+       return &User{
+          ...
+       }
+     }
+
+     - membuat variabel dengan value function
+     result := GetAll
+
+3. call variabel tersebut dengan memasukkan parameter (jika ada)
+   - cara memanggil variabel dengan tipe data function
+   - contoh:
+     response := result(1) // get data dengan inputId 1

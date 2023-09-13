@@ -1,0 +1,9 @@
+materi for
+1. for biasa (dengan variabel i di luar)
+2. for dengan statement
+   - contoh looping slice/slice
+3. for range
+   - contoh looping array/slice (dengan index)
+   - contoh looping slice tanpa index
+   - contoh looping map (dengan key-value)
+   - contoh looping map (value saja)

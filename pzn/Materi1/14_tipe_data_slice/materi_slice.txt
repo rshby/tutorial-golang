@@ -1,0 +1,16 @@
+slice
+1. membuat slice kosong
+2. membuat slice dari array
+   - slice := array[1:5] [include:exclude]
+3. membuat slice langsung diisi dengan value
+4. membuat slice dari slice yang sudah ada
+5. membuat slice menggunakan make function
+6. iterasi slice menggunakan for loop
+7. iterasi slice menggunakan for range
+8. merubah value slice
+9. menambah slice menggunakan append
+10. compare slice
+11. cek item contains in slice
+12. sorting slice
+13. trim slice
+14. split slice

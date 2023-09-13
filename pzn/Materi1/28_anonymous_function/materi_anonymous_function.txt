@@ -1,0 +1,8 @@
+materi anonymous function
+
+1. membuat sebuah function
+   - dengan input parameter tipe data string, dan tipe data func
+
+2. membuat variabel dengan value anonymous function
+
+3. membuat anonymous function langsung di dalam input parameter yang tipe datanya func
