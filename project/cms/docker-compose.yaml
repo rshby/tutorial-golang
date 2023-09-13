@@ -1,0 +1,30 @@
+version: "3.8"
+
+# set network
+networks:
+  cms-network: # nama_object_network yang ada di workspace ini
+    name: cms-network # nama_network yang akan dibuat/dipakai
+    driver: bridge # jenis driver yang digunakan
+
+# list services/container yang digunakan
+services:
+  # define service nginx
+  nginx:
+    image: nginx:alpine # nama_image:tag yang digunakan untuk membuat container
+    container_name: nginx # nama_container yang akan dibuat
+    restart: always # selalu restart ketika error
+    ports: # expose port
+      - target: 80 # target -> port yang digunakan di dalam container
+        published: 7020 # published -> port yang ada di host/laptop kita
+        protocol: tcp # protocol -> biasanya diisi tcp
+        mode: host # mode -> biasanya diisi host
+    networks: # set network yang digunakan container ini
+      - cms-network # - [nama_object_network]
+    deploy: # set resource limit
+      resources:
+        reservations: # reservations -> ukuran maksimal yang pasti akan digunakan oleh container ini
+          cpus: "0.3"
+          memory: 30mb
+        limits: # limits -> ukuran maksimal yang akan digunakan oleh container ini, tapi bisa sharing resource
+          cpus: "0.5"
+          memory: 50mb
